@@ -1,4 +1,4 @@
-# Computationally-Efficient-Models-YDS-2026**Course Description **
+# Computationally-Efficient-Models-YDS-2026 Course Description
 
 This course focuses on computational efficiency in modern machine learning, particularly in the context of large language models (LLMs). It covers optimization techniques that take hardware characteristics into account, including GPU kernel programming, quantization, pruning, model compilation, as well as automated architecture search and hyperparameter tuning. Students gain hands-on experience through profiling, low-level programming (using Triton), and a final project.
 
