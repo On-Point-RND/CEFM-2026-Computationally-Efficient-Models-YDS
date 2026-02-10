@@ -24,7 +24,7 @@ This course focuses on computational efficiency in modern machine learning, part
 
 2. **Homework Assignments**  
    - **HW1**: Triton + Kernel puzzles (March 9 – April 1)  
-   - **HW2**: Triton + Quantization (March 30 – April 20)  
+   - **HW2**: Triton + Quantization (March 9 – April 20)  
 
    Both homework assignments contribute to the final grade.
 
