@@ -37,18 +37,119 @@ This course focuses on computational efficiency in modern machine learning, part
 
 ---
 
-**Brief List of Course Topics**
 
-- Computational efficiency and scaling laws  
-- Model profiling using PyTorch Profiler  
-- Automated Machine Learning (AutoML)  
-- Neural Architecture Search (NAS), including differentiable search  
-- Overview of high-level (vLLM, SGLang, Ollama) and low-level (CUTLASS, CuTile) libraries  
-- CPU/GPU architecture, memory hierarchy, GPU arithmetic  
-- Introduction to Triton and custom kernel development  
-- PyTorch 2.0: JIT tracing, torch.compile, ONNX conversion  
-- Model pruning: structured/unstructured, iterative, magnitude-based  
-- Fundamentals of quantization: methods (e.g., LSQ), low-precision data types  
-- LLM-specific compression techniques  
-- LLM inference optimization: KV-Cache, PagedAttention, Gradient Checkpointing  
-- Methods for searching and optimizing GPU kernels
+# SHAD 2026 Project Categories:
+
+> Model Quantization: Triton and CUDA Kernels  
+U-Net Inference Acceleration  
+Speculative Decoding with a Quantized Draft Model  
+Whisper Acceleration on CPU  
+LLM / VLM Profiling and Energy Consumption  
+Quantization-Aware Training (QAT) and CPU Evaluation  
+Running Models on Mobile Devices  
+Binary Neural Networks  
+Efficient Training: Sparse Gradients  
+Efficient Training: Data Selection  
+Neural Architecture Search (NAS) and Knowledge Distillation
+
+## Model Quantization: Triton and CUDA Kernels
+
+- **Triton kernels for LLM weight quantization and quantized model inference**
+
+(Team 1)  [Slides](https://docs.google.com/presentation/d/1mfkmonvGEsfjXr_rkqNkm9gTMF7HI90A9P5LkmmfVnA/edit?usp=sharing) | [GitHub](https://github.com/innaanikina/efficientml)
+
+(Team 2)  [Slides](https://github.com/Alex-Andrv/project/blob/main/SLIDES.pdf) | [GitHub](https://github.com/Alex-Andrv/project)
+
+(Team 3)  [Slides](https://docs.google.com/presentation/d/1AXwUdJ3VzjGWMC2ITtyaG5tKCLEod4XqI-Xup0gHVso/edit?slide=id.p#slide=id.p) | [GitHub](https://github.com/kirillTerra/efdl_project)
+
+- **CUDA kernels for LLM weight quantization and quantized model inference**
+
+[Slides](https://drive.google.com/file/d/1TClPWkx-jNh0wnXHkAR1_Z8awxccAOtK/view?usp=sharing) | [GitHub](https://github.com/meawing/eml_project/tree/main)
+
+## U-Net Inference Acceleration
+
+- **Accelerating UNet model inference**
+
+(Team 1)  [Slides](https://docs.google.com/presentation/d/1yZugXE3OPq5qCX6boNjz4uBIv-Jp4hBALTQdABy2UCU/edit?usp=sharing) | [GitHub](https://github.com/WoodieDudy/unet-infer-optimization)
+
+(Team 2)  [GitHub](https://github.com/Sheshkin/efml-project/tree/first_step)
+
+(Team 3)  [Slides](https://github.com/Tyumentseva/Unet-Inference-Acceleration-Project/blob/main/unet_inference.pdf) | [GitHub](https://github.com/Tyumentseva/Unet-Inference-Acceleration-Project)
+
+(Team 4)  [Slides](https://github.com/RomanLomovsky/unet-acceleration/blob/main/EM_project_presentation.pdf) | [GitHub](https://github.com/RomanLomovsky/unet-acceleration)
+
+(Team 5)  [GitHub](https://github.com/aapetukhov/efml-unet)
+
+(Team 6)  [Slides](https://docs.google.com/presentation/d/1fGGqB5Tlv-S8g-rp0C9NRROQxqN-Cq_OXmu17WEQbKg/edit?usp=sharing) | [GitHub](https://github.com/legaliza-bit/efficient-unet-inference/tree/main)
+
+(Team 7)  [Slides](https://docs.google.com/presentation/d/1Y9mMaGFmB8NIl2ze7fqp870O9UyAZXYw5UxNUhFN25o/edit?usp=sharing) | [GitHub](https://github.com/algorithm-pirogok/effml_unet_check)
+
+## Speculative Decoding
+
+- **Speculative decoding with a quantized draft model**
+
+(Team 1)  [Slides](https://drive.google.com/file/d/1n80gSGUJo0IWNOyV82XbQscBYYVVKNnn/view?usp=drivesdk) | [GitHub](https://github.com/Aidaricus/quant_spec/tree/main)
+
+(Team 2)  [Slides](https://docs.google.com/presentation/d/19xBl1eQOfPMJvOmnK7wt3ZynREdvCiI0MTUHZLXkZlA/edit?usp=sharing) | [GitHub](https://github.com/olevanss/eff_ml_project)
+
+## Whisper Acceleration on CPU
+
+- **Whisper CPU — real-time inference**
+
+(Team 1)  [Slides](https://docs.google.com/presentation/d/1DotOLgRRlS1MpjIzYnlIg6ZG46rW53b9/edit?usp=sharing&ouid=115238071965921588071&rtpof=true&sd=true) | [GitHub](https://github.com/Anuiel/asr-cpu)
+
+(Team 2)  [Slides](https://docs.google.com/presentation/d/1vZhzR3M3B3xBN9qK3ZIaAebtOtZVpyrZKABKWc6dkv8/edit?usp=sharing) | [GitHub](https://github.com/MichaelNotDeveloper/WhisperRT-CPU/tree/main)
+
+## LLM / VLM Profiling and Energy Consumption
+
+- **Profiling LLM and VLLM (with energy consumption)**
+
+(Team 1)  [GitHub](https://github.com/smirnovlad/vlm-profiler)
+
+(Team 2)  [Slides](https://docs.google.com/presentation/d/1-ZLqcAVyG2ZDxtzJehix48sNRSV5GzCd5dN31-2cr9g/edit?slide=id.p1#slide=id.p1) | [GitHub](https://github.com/ars200200/ml_efficiency_course_work)
+
+## Quantization-Aware Training (QAT) and CPU Evaluation
+
+- **QAT with Int8 conversion and quality evaluation on CPU**
+
+(Team 1)  [Slides](https://docs.google.com/presentation/d/1m50eLYrmPDU2MokgCwb9EC_c5Tly_Vj90w5Q_HQgE5k/edit?usp=sharing) | [GitHub](https://github.com/Snikem/SASRec.pytorch)
+
+(Team 2)  [Slides](https://docs.google.com/presentation/d/13CvfhOKczxETNucPRGnJokrquSH9eoxiV5OCc4FGxAc/edit?slide=id.p#slide=id.p) | [GitHub](https://github.com/Matewl/EFF_DL_QAT)
+
+## Running Models on Mobile Devices
+
+- **Running a quantized Int8 TTS model on a phone**
+
+[GitHub](https://github.com/mievst/Mobile-TTS-YDS)
+
+## Binary Neural Networks
+
+- **Training a model with binary weights for keyword spotting (voice command classification)**
+
+(Team 1)  [Slides](https://github.com/maya-belozer/YSDA_EMML_Bin/blob/main/Binary_Speech_Commands.pdf) | [GitHub](https://github.com/maya-belozer/YSDA_EMML_Bin)
+
+(Team 2)  [GitHub](https://github.com/seniorfroggy/1Bit-ResNet18-KWS)
+
+## Efficient Training: Sparse Gradients
+
+- **Training transformers with sparse gradients (nanoGPT + long context)**
+
+(Team 1)  [Slides](https://docs.google.com/presentation/d/1KVn6UtWpgZ49kny-S4lrSfx_QLI-JYuid-AozL4yaJ0/edit?usp=sharing) | [GitHub](https://github.com/BurmistrovaEO/sparse-activations-MOC-llm)
+
+(Team 2)  [Slides](https://www.overleaf.com/read/pfkhjzswyhgx#81a1fa) | [GitHub](https://github.com/letit6E/sparse-gpt-research)
+
+(Team 3)  [Slides](https://docs.google.com/presentation/d/1j-NOFZOYtzWDeAGK-UWUWFdKENZycNXeY2QN1ZQ4kG0/edit?usp=sharing) | [GitHub](https://github.com/kostyayatsok/ysda-efficient-models-project-mixture-of-channels)
+
+## Efficient Training: Data Selection
+
+- **Data selection methods based on geometric properties**
+
+(Team 1)  [Slides](https://docs.google.com/presentation/d/1mp0BITkbBOY_YmWiQ69Yt_gDdtEPzlT3/edit?usp=sharing&ouid=107187012210002792933&rtpof=true&sd=true) | [GitHub](https://github.com/grvlko/data-selection-with-geometric-methods)
+
+(Team 2)  [Slides](https://github.com/khilling2/Eff_ML_project/blob/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82_%D1%8D%D1%84%D1%84__ML.pdf) | [GitHub](https://github.com/khilling2/Eff_ML_project)
+
+## Neural Architecture Search (NAS) and Knowledge Distillation
+
+- **NAS and knowledge distillation**
+
+[Slides](https://github.com/binary-wolfishness/nas-kd/blob/nas-evolution-kd-hinton/docs/NAS_KD.pdf) | [GitHub](https://github.com/binary-wolfishness/nas-kd/tree/nas-evolution-kd-hinton)
