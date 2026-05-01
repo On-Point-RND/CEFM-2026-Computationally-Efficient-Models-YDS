@@ -40,17 +40,17 @@ This course focuses on computational efficiency in modern machine learning, part
 
 # SHAD 2026 Project Categories:
 
-> Model Quantization: Triton and CUDA Kernels  
-U-Net Inference Acceleration  
-Speculative Decoding with a Quantized Draft Model  
-Whisper Acceleration on CPU  
-LLM / VLM Profiling and Energy Consumption  
-Quantization-Aware Training (QAT) and CPU Evaluation  
-Running Models on Mobile Devices  
-Binary Neural Networks  
-Efficient Training: Sparse Gradients  
-Efficient Training: Data Selection  
-Neural Architecture Search (NAS) and Knowledge Distillation
+> (1) Model Quantization: Triton and CUDA Kernels  
+(2) U-Net Inference Acceleration  
+(2) Speculative Decoding with a Quantized Draft Model  
+(3) Whisper Acceleration on CPU  
+(4) LLM / VLM Profiling and Energy Consumption  
+(5) Quantization-Aware Training (QAT) and CPU Evaluation  
+(6) Running Models on Mobile Devices  
+(7) Binary Neural Networks  
+(8) Efficient Training: Sparse Gradients  
+(9) Efficient Training: Data Selection  
+(10) Neural Architecture Search (NAS) and Knowledge Distillation
 
 ## Model Quantization: Triton and CUDA Kernels
 
